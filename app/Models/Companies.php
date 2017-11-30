@@ -8,5 +8,6 @@ class Companies extends Model
 {
     protected $table = 'companies';
 
-    protected $fillable = ['id', 'name', 'address', 'logo', 'path'];
+    protected $fillable = ['id', 'name', 'address', 'logo'];
+
 }
