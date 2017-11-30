@@ -12,6 +12,12 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    img{
+        border-radius: 50%;
+    }
+</style>
 </head>
 <body>
     <div id="app">
@@ -36,7 +42,8 @@
                 <div class="collapse navbar-collapse" id="app-navbar-collapse">
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                        &nbsp;
+                        &nbsp;<li><a href="/admin/companies">Companies</a></li>
+                        <li><a href="/admin/employees">Employees</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
